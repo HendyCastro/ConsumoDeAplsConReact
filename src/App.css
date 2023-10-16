@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #4fe00c;
+  background: linearrgb(73, 77, 73)nt(to bottom, #c4dafa, #f1d7ff, #f2e8e1);
+  font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  background-color: rgb(47, 160, 3);
+ 
+}
+
+.buscador-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  margin-bottom: 20px;
+  height: 50px;
+  width: 50%;
+  justify-content: center;
+  border-color: rgb(244, 248, 7);
+}
+
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-brand{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fa-dragon{
+  color: rgb(243, 247, 242);
+}
+
+
+
+input[type="text"] {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 25px;
+  background-color: rgb(252, 253, 249);
+  border-color: rgb(238, 215, 4);
+}
+
+
+.card-title {
+  font-size: 1.5rem;
+  width: 70rem;
+  margin: 0;
+  font-size: 15px;
+  
+  
+  
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  width: 77%;
+
+}
+
+.col-md-4 {
+  padding: 0 16px;
+  flex: 0 0 33.333%;
+  max-width: 23.333%;
+}
+
